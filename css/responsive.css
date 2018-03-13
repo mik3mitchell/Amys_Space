@@ -1,0 +1,132 @@
+@media screen and (max-width:965px) {
+  #content-wrapper .btn-default {
+    font-size: 20px;
+    color: rgb(64, 64, 64);
+    border: none;
+    text-align: center;
+  }
+
+  #content-wrapper .btn-position {
+    margin: 0 7%;
+  }
+
+  #wrapper.menuDisplayed #content-wrapper .btn-position {
+    margin: 0 0;
+  }
+
+  #wrapper.menuDisplayed #content-wrapper .btn-default {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:680px) {
+  #wrapper.menuDisplayed #content-wrapper .btn-default {
+    font-size: 10px;
+  }
+}
+
+/* Top Nav - Responsive */
+@media screen and (max-width:650px) {
+  nav {
+    padding: 0 5px;
+  }
+
+  nav h1 {
+    font-size: 2.6rem;
+    margin: 17px 0 0 8px;
+  }
+
+  #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
+    margin-right: 10px;
+  }
+
+  nav .btn {
+    padding: 14px 6px 6px 6px;
+  }
+
+  nav .btn-group {
+    margin: 0;
+  }
+
+/* Sidebar - Responsive */
+
+  #wrapper.menuDisplayed #sidebar-wrapper {
+    width: 150px;
+  }
+
+  #wrapper.menuDisplayed #content-wrapper {
+    padding-left: 165px;
+  }
+
+  .sidebar-nav li {
+    font-size: 1.25rem;
+    line-height: 45px;
+  }
+
+  .sidebar-nav ul {
+    list-style: none;
+    padding-left: 10px;
+  }
+
+  .headshot {
+    height: 85px;
+    margin: 40px 37px 10px 38px;
+  }
+
+  .sidebar-nav h2 {
+    font-size: 25px;
+    text-align: center;
+    color: #d896ff;
+    margin: 3px 0 50px 0;
+    padding: 0;
+  }
+
+  .sidebar-nav .dslogo {
+    width: 130px;
+    margin: 15% 10px 0 10px;
+  }
+
+/* BOTTOM PAGE BUTTONS */
+  #content-wrapper .btn-default {
+    font-size: 11px;
+    color: rgb(64, 64, 64);
+    border: none;
+    text-align: center;
+  }
+
+  #content-wrapper .btn-position {
+    margin: 0 0;
+  }
+}
+
+@media screen and (max-width:485px) {
+  #wrapper.menuDisplayed #content-wrapper .btn {
+    width: 100%;
+  }
+
+  #wrapper.menuDisplayed #about-content .about-section {
+    line-height: 30px;
+    font-size: 2rem;
+  }
+
+}
+
+@media screen and (max-width:366px) {
+  nav .btn-group {
+    display: none
+  }
+
+  #wrapper.menuDisplayed #about-content .about-section {
+    line-height: 22px;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width:354px) {
+  #content-wrapper .btn-default {
+    font-size: 9px;
+    color: rgb(64, 64, 64);
+    border: none;
+    text-align: center;
+  }
+}
