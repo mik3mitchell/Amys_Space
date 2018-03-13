@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Amy's Space - Phototgrapher McKinney, TX - Photos Dallas</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/550180439a.js"></script>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/photos.css">
+  <link rel="stylesheet" href="../css/animation.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="icon" href="../img/aslogo.png">
+  <meta name="description" content="Amy Mitchell is passionate photographer, in McKinney, TX.  She provides professional photos with a personal touch!">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+  <meta name="keywords" content="Amy's Space, Photography, Photographer, Photography McKinney TX, Photographer McKinney TX, Amy Mitchell">
+  <meta name="author" content="Michael Mitchell of Design Sanctum">
+</head>
+
+<body>
+
+<!-- Top Nav -->
+  <nav>
+    <!--Hamburger Menu Icon-->
+    <a href="#" id="menu-toggle">
+			<div id="nav-icon1">
+  			<span></span>
+  			<span></span>
+  			<span></span>
+			</div>
+    </a>
+    <h1>Amy's Space</h1>
+
+    <div class="btn-group">
+      <a class="btn btn-default" href="https://www.behance.net/amy357b" target="blank">
+        <i class="fa fa-behance-square fa-fw fa-2x" title="Call"></i>
+      </a>
+      <a class="btn btn-default" href="mailto:amy@amysspace.com">
+        <i class="fa fa-envelope fa-fw fa-2x" title="E-Mail"></i>
+      </a>
+      <a class="btn btn-default" href="https://www.facebook.com/AmysSpacePhotos/" target="blank">
+        <i class="fa fa-facebook-square fa-fw fa-2x" title="Facebook"></i>
+      </a>
+    </div>
+  </nav>
+
+<div id="wrapper">
+
+<!-- Sidebar -->
+  <div id="sidebar-wrapper">
+    <div class="sidebar-nav">
+      <img src="../img/amy.png" alt="" class="headshot">
+      <h2>Amy Mitchell</h2>
+      <ul class="cl-effect-1">
+        <li><a href="../index.html"><i class="fa fa-child fa-2x"></i>Portraits</a></li>
+        <li><a href="urban.html"><i class="fa fa-building-o fa-2x"></i>Urban</a></li>
+        <li><a href="nature.html"><i class="fa fa-pagelines fa-2x"></i>Nature</a></li>
+        <li><a href="wild.html"><i class="fa fa-bug fa-2x"></i>Wildlife</a></li>
+        <li><a href="about.html"><i class="fa fa-female fa-2x"></i>About</a></li>
+      </ul>
+      <a href="http://www.thedesignsanctum.com" target="_blank"><img src="../img/dslogo_createdby.png" alt="Design Sanctum" class="dslogo"></a>
+    </div>
+  </div>
+
+
+<!-- Page Content -->
+<div id="top"></div>
+<div id="content-wrapper">
+    <div class="container-fluid">
+      <div>
+        <h2 >Nature</h2>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-md-4"> <!-- Left Column -->
+          <img src="../img/Nature/znat16.JPG" alt="">
+          <img src="../img/Nature/DSC_1121.JPG" alt="">
+          <img src="../img/Nature/znat06.JPG" alt="">
+          <img src="../img/Nature/znat04.JPG" alt="">
+          <img src="../img/Nature/DSC_0854.JPG" alt="">
+          <img src="../img/Nature/DSC_1057.JPG" alt="">
+          <img src="../img/Nature/znat01.JPG" alt="">
+          <img src="../img/Nature/DSC_0065.JPG" alt="">
+        </div>
+        <div class="col-md-4"> <!-- Middle Column -->
+          <img src="../img/Nature/DSC_0626.JPG" alt="">
+          <img src="../img/Nature/znat09.JPG" alt="">
+          <img src="../img/Nature/DSC_0070.JPG" alt="">
+          <img src="../img/Nature/DSC_0632.JPG" alt="">
+          <img src="../img/Nature/DSC_0428.JPG" alt="">
+          <img src="../img/Nature/DSC_1170.JPG" alt="">
+          <img src="../img/Nature/znat18.JPG" alt="">
+        </div>
+        <div class="col-md-4"> <!-- Right Column -->
+          <img src="../img/Nature/znat14.JPG" alt="">
+          <img src="../img/Nature/znat05.JPG" alt="">
+          <img src="../img/Nature/znat10.JPG" alt="">
+          <img src="../img/Nature/znat17.JPG" alt="">
+          <img src="../img/Nature/DSC_0462.JPG" alt="">
+          <img src="../img/Nature/znat13.JPG" alt="">
+          <img src="../img/Nature/znat19.JPG" alt="">
+        </div>
+      </div>
+      <div class="center">
+        <a class="btn btn-default disabled" href="#">
+          <i class="fa fa-arrow-left fa-fw fa-1x" title="Call"></i>Last Page</a>
+        <a class="btn btn-default btn-position" href="#top"><i class="fa fa-arrow-up fa-fw fa-1x" title="Call"></i>Back to top
+          <i class="fa fa-arrow-up fa-fw fa-1x" title="Call"></i></a>
+        <a class="btn btn-default disabled" href="#">Next Page
+          <i class="fa fa-arrow-right fa-fw fa-1x" title="Call"></i></a>
+      </div>
+    </div>
+</div> <!-- Close Wrapper -->
+
+
+  <script src="../js/jquery-3.1.1.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/custom.js"></script>
+<!-- Menu toggle script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("menuDisplayed");
+    });
+  </script>
+
+<!-- SMOOTH SCROLL -->
+  <script>
+      $(function() {
+$('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+});
+</script>
+
+</body>
+</html>
